@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="com.RegistryModule2.Test.NewTestClass">
+        <methods>
+          <include name="addResultToTestrail"/>
+          <include name="fetchRetiredFacility"/>
+          <include name="Verification_of_AR_Other_than_self_with_edit_access_can_edit_the_EAA"/>
+          <include name="Verification_of_AR_user_is_able_to_cancel_the_application_in_Application_in_Progress"/>
+          <include name="Verification_of_mail_notification_after_Registrar_approves_EAA"/>
+          <include name="Verification_of_AR_user_is_able_to_cancel_the_application_in_Revision_Requested"/>
+          <include name="Verification_of_mail_notification_after_Registrar_denies_EAA"/>
+          <include name="mailReport"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.RegistryModule2.Test.NewTestClass -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

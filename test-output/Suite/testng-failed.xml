@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.RegistryModule2.Test.EAA_Page_Tests">
+        <methods>
+          <include name="addResultToTestrail"/>
+          <include name="Verification_of_Telephone_Num_Or_Mobile_Num_Last_Name_and_Position_text_fields_GMPO_entity_type"/>
+          <include name="Verification_of_Request_Status_after_submission"/>
+          <include name="C36138_Verification_of_incorporation_State_Or_Province_feild"/>
+          <include name="mailReport"/>
+          <include name="C36150_Verification_of_User_Classification_for_All_Jurisdiction_And_EntityType_GMPI"/>
+          <include name="Verification_of_Textbox_when_user_selects_OtherOptionInThe_User_Classification_dropdown"/>
+          <include name="UI_Verification_of_Identifier_details_on_Entity_Profile_page_for_Quebec_Jurisdiction_and_Covered_Or_GMPO_EntityType"/>
+          <include name="createEAA"/>
+          <include name="Verification_of_Textbox_when_user_selects_Other_in_the_Type_of_Organization_dropdown"/>
+          <include name="UI_Verification_of_Identifier_details_on_Entity_Profile_page_for_Ns_Jurisdiction_and_Covered_Or_GMPO_EntityType"/>
+          <include name="Verification_of_change_in_jurisdiction_when_Entity_ID_is_assigned_OR_Entity_created_is_in_Saved_status"/>
+          <include name="C39324_Verification_of_accessibility_EAA_Option_for_Denied_IndividualUser"/>
+          <include name="addWiringInstruction"/>
+          <include name="Verification_of_Select_Jurisdiction_Functionality"/>
+          <include name="Verification_of_Entity_Status_on_Save_EAA_for_GMPO_or_GMPI_Entity_Type"/>
+          <include name="Verification_of_Mandatory_Feilds_On_Alternate_Contact_Person_section_for_Quebec_Jurisdiction"/>
+          <include name="Verification_of_region_feild"/>
+          <include name="C36139_Verification_of_continue_button"/>
+          <include name="UI_Verification_of_Identifier_details_on_Entity_Profile_page_for_WA_Jurisdiction_and_Covered_Or_GMPO_EntityType"/>
+          <include name="Verification_of_change_in_jurisdiction_when_Entity_ID_is_assigned_OR_Entity_created_is_in_Saved_status1"/>
+          <include name="Verification_of_multiple_EAA_initiation_by_pending_User"/>
+          <include name="C37498_verification_of_Entity_Information_Page_for_Washington_Jurisdiction_GMPO_EntityType"/>
+          <include name="Verification_of_assigning_Unique_ID_functionality"/>
+          <include name="verificationOfIndividualUserisAbleToViewTheListOfOrganisationAsADropdown"/>
+          <include name="Verification_of_Change_entity_type_when_Individual_user_goes_back"/>
+          <include name="Verification_of_view_Entity_Accounts_Details_page_from_entity_profile_page"/>
+          <include name="C37545_Verification_Email_AddressField_For_GMPO_EntityType"/>
+          <include name="Entity_Account_Application_Assign_Unique_Entity_ID"/>
+          <include name="Verification_of_Select_Jurisdiction_Functionality_Continue_button_with_emptyData"/>
+          <include name="C36429_Verification_of_accessibility_of_Entity_Account_Application_other_than_Individual_user"/>
+          <include name="Verification_of_Change_Jurisdiction_when_EntityID_NotAssigned"/>
+          <include name="C36141_Verification_Of_Cancel_Button_On_Entity_Identifier_Feild"/>
+          <include name="Verification_of_Change_entity_type_Funtionality_After_Entity_id"/>
+          <include name="Verification_of_Alternate_Contact_Person_section_for_Quebec_Jurisdiction"/>
+          <include name="Verify_Type_Of_Organization_for_Quebec"/>
+          <include name="initialization"/>
+          <include name="C37544_Verification_of_First_Name_Last_Name_and_Position_text_or_EmailAdress_fields_GMPO_entity_type"/>
+          <include name="Verification_of_Entity_Status_on_Save_EAA_for_Covered_Entity_Type"/>
+          <include name="Verification_of_accessibility_of_Entity_Accounts_on_Entity_Profile_page"/>
+          <include name="approve_Entity_By_Registrar_and_Assigning_LUHA_Account"/>
+          <include name="Verification_of_navigate_back_to_entity_profile_from_account_details_page"/>
+          <include name="Verification_of_multiple_EAA_initiation_by_individul_User_PAR_AAR_AVA"/>
+          <include name="UI_Verification_of_Identifier_details_on_Entity_Profile_page_for_California_Jurisdiction_and_Covered_Or_GMPO_EntityType"/>
+          <include name="filterfunctionality"/>
+          <include name="C37541_Verification_Email_AddressField_For_Covered_EntityType"/>
+          <include name="Verification_of_Purpose_of_Account_for_All_Jurisdiction"/>
+          <include name="C37497_verification_of_Entity_Information_Page_for_NovaScotia_Jurisdiction_GMPO_EntityType"/>
+          <include name="C37543_UI_Verification_of_Alternate_Contact_Person_section_for_GMPO_entity_type"/>
+          <include name="Verification_of_Purpose_of_account_and_User_Classification_dropdown_on_Entity_Information_page"/>
+          <include name="verification_Cancel_Button_Functionality_of_Entity_Information_Page_GMPI_EntityType"/>
+          <include name="Verification_of_Telephone_Num_Or_Mobile_Num_Last_Name_and_Position_text_fields_Covered_entity_type"/>
+          <include name="C36136_UI_Verification_of_Entity_Information_and_Identifiers_page_for_California_Jurisdiction_and_Covered_Entity"/>
+          <include name="C37539_UI_Verification_of_Alternate_Contact_Person_section_for_Covered_entity_type"/>
+          <include name="Verification_of_First_Name_Last_Name_and_Position_text_or_EmailAdress_fields_Covered_entity_type"/>
+          <include name="Verification_of_Search_entity"/>
+          <include name="Entity_Account_Application_Update_Entity_Status"/>
+          <include name="Verification_of_Continue_button_of_Entity_Information_section"/>
+          <include name="UI_Verification_of_Identifier_details_on_Entity_Profile_page_for_GMPI_EntityType"/>
+          <include name="Verification_Entity_Status_of_Request_revision_EAA"/>
+          <include name="Verification_of_navigation_of_Entity_details"/>
+        </methods>
+      </class> <!-- com.RegistryModule2.Test.EAA_Page_Tests -->
+      <class name="com.RegistryModule2.Test.NewTestClass">
+        <methods>
+          <include name="addResultToTestrail"/>
+          <include name="Verification_of_AR_Other_than_self_without_edit_access_can_edit_the_EAA"/>
+          <include name="Verification_of_AR_Other_than_self_with_edit_access_can_edit_the_EAA"/>
+          <include name="Verification_of_AR_user_is_able_to_cancel_the_application_in_Application_in_Progress"/>
+          <include name="Verification_of_Individual_User_is_able_to_submit_the_EAA_and_status_is_updated_to_Pending"/>
+          <include name="Verification_of_mail_notification_after_Registrar_approves_EAA"/>
+          <include name="Verification_of_individual_user_is_able_to_review_the_EAA"/>
+          <include name="Verification_of_AR_user_is_able_to_cancel_the_application_in_Application_in_Pending"/>
+          <include name="Verification_of_mail_notification_after_Registrar_denies_EAA"/>
+          <include name="mailReport"/>
+          <include name="Verification_of_Registrar_can_request_revisions_for_the_entity_account_application_with_comments"/>
+          <include name="Verification_of_Registrar_can_deny_entity_account_application_with_comments"/>
+          <include name="Verification_of_Jurisdiction_user_is_able_to_cancel_the_application_in_Application_in_Progress"/>
+          <include name="fetchRetiredFacility"/>
+          <include name="Verification_of_Individual_User_is_not_able_to_edit_Entity_Profile_in_pending_status"/>
+          <include name="Verification_of_Registrar_can_approve_entity_account_application"/>
+          <include name="Verification_of_individual_user_is_able_to_edit_the_EAA_on_Review_and_Submit_Page"/>
+          <include name="Verification_of_AR_user_is_able_to_cancel_the_application_in_Revision_Requested"/>
+          <include name="Verification_of_Jurisdiction_user_is_able_to_cancel_the_application_in_Application_in_Pending"/>
+          <include name="Verification_of_Jurisdiction_user_is_able_to_cancel_the_application_in_Revision_Requested"/>
+          <include name="Verification_of_Individual_User_is_able_to_view_Entity_Profile_of_submitted_EAA"/>
+          <include name="Verification_of_individual_user_is_able_to_download_forms_of_submitted_EAA"/>
+          <include name="initialization"/>
+          <include name="Verify_add_existing_facility_to_new_Application"/>
+        </methods>
+      </class> <!-- com.RegistryModule2.Test.NewTestClass -->
+      <class name="com.RegistryModule2.Test.RPM2_Priyanka_Test">
+        <methods>
+          <include name="addResultToTestrail"/>
+          <include name="mailReport"/>
+          <include name="initialization"/>
+          <include name="C36263_Verification_of_Street1_Street2_City_text_field"/>
+        </methods>
+      </class> <!-- com.RegistryModule2.Test.RPM2_Priyanka_Test -->
+      <class name="com.RegistryModule2.Test.RPM2_Test_Seema">
+        <methods>
+          <include name="addResultToTestrail"/>
+          <include name="C36245_Validation_of_Government_Issued_Taxpayer_or_Employer_ID_GMPO"/>
+          <include name="C43689_VerificationOf_ContinueButton_contactInformationPage_GMPO_GMPI"/>
+          <include name="C36281_Validation_of_Dateof_Incorporation_feild_Covered"/>
+          <include name="C36168_VerificationOf_Change_EntityType_Functionality"/>
+          <include name="mailReport"/>
+          <include name="C36242_Validation_of_region_feild_GMPO"/>
+          <include name="C36241_Verification_of_region_feild"/>
+          <include name="C36279_Verification_of_region_feild"/>
+          <include name="C36277_Validationof_LegalName_OperatingName_for_Covered"/>
+          <include name="C36239_Validationof_LegalName_OperatingName_for_GMPO"/>
+          <include name="C36283_Validation_of_Government_Issued_Taxpayer_or_Employer_ID_Covered"/>
+          <include name="C36237_VerificationOf_TypeofOrganization_Dropdown_GMPO"/>
+          <include name="C36282_Validation_of_ID_number_AssignedBy_Incorporating_Agency_Covered"/>
+          <include name="C36158_Verification_Of_Mandatory_feilds_if_Not_Populated_onContactInformation"/>
+          <include name="C37573_Verification_of_incorporation_State_Or_Province_feild_onEntityInfo_GMPO"/>
+          <include name="C36159_VerificationOf_ContinueButton_contactInformationPage_CoveredEntity"/>
+          <include name="C36148_verification_Exit_applicationButton_entityInformationPage_GMPO"/>
+          <include name="C36243_Validation_of_Dateof_Incorporation_feild_GMPO"/>
+          <include name="C36238_Verification_of_Textbox_when_user_selects_Other_in_the_Type_of_Organization_dropdown"/>
+          <include name="C36146_Verification_Of_Mandatory_feilds_if_Not_Populated"/>
+          <include name="C36160_VerificationOf_ExitApplicationButton_contactInformationPage"/>
+          <include name="C36147_verification_of_Continuebutton_on_EntityinformationPage_GMPO"/>
+          <include name="C36244_Validation_of_ID_number_AssignedBy_Incorporating_Agency_GMPO"/>
+          <include name="C37572_Verification_of_region_feild_onEntityInfo_GMPO"/>
+          <include name="C36280_Validation_of_region_feild_Covered"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.RegistryModule2.Test.RPM2_Test_Seema -->
+      <class name="com.RegistryModule2.Test.JurisdictionUserTests">
+        <methods>
+          <include name="addResultToTestrail"/>
+          <include name="UI_verification_of_Success_message"/>
+          <include name="approvePendingEAAForIndividualUser"/>
+          <include name="requestRevisionPendingEAAForIndividualUser"/>
+          <include name="cancelPendingEAAForIndividualUser"/>
+          <include name="denyPendingIndividualUser"/>
+          <include name="mailReport"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.RegistryModule2.Test.JurisdictionUserTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

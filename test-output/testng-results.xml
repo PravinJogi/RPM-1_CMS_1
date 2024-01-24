@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="26" total="27" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-28T15:45:43 IST" name="Default suite" finished-at="2023-12-28T15:46:51 IST" duration-ms="68161">
+    <groups>
+    </groups>
+    <test started-at="2023-12-28T15:45:43 IST" name="Default test" finished-at="2023-12-28T15:46:51 IST" duration-ms="68161">
+      <class name="Tests.CMSTest">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:Tests.CMSTest@35ef1869]" started-at="2023-12-28T15:45:43 IST" name="initialization" finished-at="2023-12-28T15:45:49 IST" duration-ms="5362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="Verification_of_Reset_button_functionality_of_Page_Content_Accordion()[pri:26, instance:Tests.CMSTest@35ef1869]" started-at="2023-12-28T15:45:49 IST" name="Verification_of_Reset_button_functionality_of_Page_Content_Accordion" finished-at="2023-12-28T15:46:47 IST" duration-ms="58450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verification_of_Reset_button_functionality_of_Page_Content_Accordion -->
+        <test-method is-config="true" signature="addResultToTestrail(org.testng.ITestResult)[pri:0, instance:Tests.CMSTest@35ef1869]" started-at="2023-12-28T15:46:51 IST" name="addResultToTestrail" finished-at="2023-12-28T15:46:51 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verification_of_Reset_button_functionality_of_Page_Content_Accordion status=SUCCESS method=CMSTest.Verification_of_Reset_button_functionality_of_Page_Content_Accordion()[pri:26, instance:Tests.CMSTest@35ef1869] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addResultToTestrail -->
+        <test-method is-config="true" signature="mailReport()[pri:0, instance:Tests.CMSTest@35ef1869]" started-at="2023-12-28T15:46:52 IST" name="mailReport" finished-at="2023-12-28T15:46:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailReport -->
+      </class> <!-- Tests.CMSTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Default suite]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)(failed)(failed)">
+    <classes>
+      <class name="com.RegistryModule2.Test.EAA_Page_Tests">
+        <methods>
+          <include name="addResultToTestrail"/>
+          <include name="createEAA"/>
+          <include name="Verification_of_change_in_jurisdiction_when_Entity_ID_is_assigned_OR_Entity_created_is_in_Saved_status1"/>
+          <include name="mailReport"/>
+          <include name="approve_Entity_By_Registrar_and_Assigning_LUHA_Account"/>
+          <include name="addWiringInstruction"/>
+          <include name="initialization"/>
+          <include name="Verification_of_navigation_of_Entity_details"/>
+        </methods>
+      </class> <!-- com.RegistryModule2.Test.EAA_Page_Tests -->
+    </classes>
+  </test> <!-- Default test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Default suite]]] -->
